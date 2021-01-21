@@ -1,16 +1,16 @@
 #todo class for differnt calls to api
-class CallType:
+class CallTypes:
     WEATHER = "weather"
 
 
 
-class Zip:
+class Zips:
     BELMONT = "0622"
 
-class Country:
+class Countries:
     NZ = "NZ"
 
-class Unit:
+class Units:
     METRIC = "metric"
 
 
