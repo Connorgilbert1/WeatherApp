@@ -7,5 +7,5 @@ class WeatherParser:
 
 
     def sky(self):
-       return self.api_data['weather']
+        return self.api_data['weather'][0]['description']
 

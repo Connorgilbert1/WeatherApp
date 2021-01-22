@@ -14,6 +14,6 @@ class OpenWeatherClient:
     #method to create an API call (url format)
 
     def ClientCall(self,CallType,Zip,Country,Unit):
-        return f"{self.BASE_URL}/{CallType}?zip={Zip},{Country}&units={Unit}&appid={self.AppId}"
+        return f"{self.BASE_URL}/{CallType}?zip={str(Zip)},{Country}&units={Unit}&appid={self.AppId}"
 
 
